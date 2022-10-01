@@ -10,7 +10,7 @@ function App()
   const inputComponent = data.map((datas) =>
   (
     <Input key={datas.id} placeholder={datas.name} message={datas.message} type={datas.type} />
-  ))
+  ));
   return (
     <div className="App w-screen h-screen flex items-center justify-center relative text-[#fff] font-Poppins text-ms ">
       <img src={bg} alt="bg img" className="w-full h-full fixed top-0 bottom-0 left-0 right-0 Mobile:hidden" />
